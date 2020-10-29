@@ -1,3 +1,3 @@
 def reverse_each_word(input)
-  divide = input.scan(/\w+/)
+  divide = input.split
 end
