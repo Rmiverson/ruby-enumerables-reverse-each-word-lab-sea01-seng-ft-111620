@@ -3,5 +3,5 @@ def reverse_each_word(input)
   divide_reverse = divide.map do |element|
     element.reverse
   end
-  
+  divide_reverse.join(" ")
 end
